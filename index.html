@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <title>Trivia Game</title>
+</head>
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+></script>
+
+<body>
+  <div class="header">
+    <p class="title">Star Wars Trivia Quiz</p>
+  </div>
+
+  <div class="questions">
+    <p id="question"></p>
+  </div>
+
+  <div class="answers">
+    <button class="option" id="optionA" value="A"></button>
+    <button class="option" id="optionB" value="B"></button>
+    <button class="option" id="optionC" value="C"></button>
+    <button class="option" id="optionD" value="D"></button>
+  </div>
+
+  <p id="countdown"></p>
+
+  <p id="correct"></p>
+
+  <div id="end"></div>
+
+  <button id="newGame"></button>
+
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
